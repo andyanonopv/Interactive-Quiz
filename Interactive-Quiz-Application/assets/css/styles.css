@@ -1,0 +1,55 @@
+/* Resets */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main App */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1,a {
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+
+.container-test {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#btnSubmit,#createQuiz {
+    margin: 0 auto;
+}
+
+.question {
+    background-color: lightgray;
+    border-radius: 5px;
+}
